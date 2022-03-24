@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>num</title>
+    <title>Calculadora IMC</title>
 </head>
 <body>
-    <h1>Exibindo números com FOR</h1>
-    <h1>Números de 0 a 100</h1>
-    <script>
-        
-        
-        for(cambalhota = 0; cambalhota <=100; cambalhota++){
-            document.write(`Numero  ${cambalhota}<br>`)
-    }   
-    </script>
+    <H1>Calculadora IMC</H1>
+    <label for="altura">Altura em cm: </label>
+    <input type="number" name="altura" id="altura"><br><br>
+
+    <label for="peso">Peso: </label>
+    <input type="number" name="peso" id="peso"><br><br>
+
+    <button onclick="calcularimc()">Calcular</button>
+
+    <div id="resultado" >
+
+    </div>
+<script src="imc.js"></script>
+
+
+
+
+
+
+
 </body>
 </html>
